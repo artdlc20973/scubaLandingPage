@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Monserrat&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: "Monserrat", sans-serif;
+}
+
+body {
+  background: url("https://images.unsplash.com/photo-1553602455-f00e641c03c0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80")
+    no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: #30a8f8;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  margin-left: 1.4em;
+  font-size: 1.5em;
+}
+
+.nav {
+  display: flex;
+}
+
+.nav li {
+  list-style: none;
+}
+
+.nav li a {
+  text-decoration: none;
+  margin-right: 1.3em;
+  padding-right: 1em;
+  color: #30a8f8;
+}
+
+.nav li a:hover {
+  color: #fff;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  margin: 300px auto;
+  text-align: center;
+}
+
+h1 {
+  color: #30a9fa6c;
+  margin-bottom: 0;
+}
+
+p {
+  color: #30a9faa2;
+  font-size: 1.3em;
+}
+
+button {
+  background: #30a9fa4d;
+  border: none;
+  color: #fff;
+  padding: 12px 50px;
+  font-size: 1.3em;
+  margin: auto;
+  letter-spacing: 2px;
+  word-spacing: 4px;
+  text-transform: uppercase;
+}
